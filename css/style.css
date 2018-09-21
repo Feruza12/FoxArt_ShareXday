@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "DidactGothic";
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.ttf");
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.woff");
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.woff2");
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'DidactGothic', sans-serif;
+	color: white;
+}
+.background{
+	background: #000000;
+	min-height:  100vh;
+}
+.background .header{
+	/*margin-top: 15px;*/
+}
+h1{
+	font-size: 2em;
+	font-weight: 700;
+}
+.share{
+	/*font-size: 2.2em;*/
+	font-weight: bold;
+	text-align: center;	
+}
+.content{
+	margin-top: 50px;
+}
+.content p{
+	font-size: 1em;
+}
+.form-group{
+	padding-right: 0!important;
+	height: 35px;
+}
+.send{
+	width: 160px;
+	background: #FF3300;
+	color: black;
+	font-weight: bold;
+	float: right;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+.box{
+	padding: 20px;
+	transition: 0.5s 0.2s ease;
+	cursor: move;
+}
+.box:hover{
+	outline: 8px solid white;
+}
+.icons li{
+	margin: 13px;
+}
+.contacts{
+	font-size: 0.85em;	
+}
+.contacts li{
+	/*font-weight: bold;*/
+}
+.contacts li a{
+	color: #FFF;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.sharedaymargin{
+	margin-top: 70px;
+}
+.preloader{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: #000;
+	z-index: 999;
+	transition: 1s 1s ease;
+}
+.preloader .sharexday{
+	text-align: center;
+	position: relative;
+	top: 40vh;
+	font-size: 4em;
+	transition: 1s 1s ease;
+}
+.preloader .loader{
+	height: 10px;
+	width: 2px;
+	background-color: #fff;
+	transition: 1s 1s ease;
+	margin-top: 10px;
+}
+h2{
+	font-size: 2em;
+	color: #FF3300;
+	margin-top: 30px;
+}
+@media only screen and (max-width: 576px) {
+    h1, h2{
+    	font-size: 1.7em;
+    }
+    ul li a img{
+    	width: 70%;
+    	height: 70%;
+    }
+  
+}
